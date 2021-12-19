@@ -1,6 +1,7 @@
-function someFunction(list) {
+function getListLength(list) {
     return list.length;
 }
 
-var people = ["Maria", "Dani", "Luis", "Juan", "Camila"];
-console.log("The length is: " + someFunction(people));
+var people = ["Maria"];
+//people.pop();
+console.log("The length is: " + getListLength(people));
