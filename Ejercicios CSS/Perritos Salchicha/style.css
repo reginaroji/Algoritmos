@@ -26,8 +26,31 @@ body {
 
 h1 {
     text-align: center;
-    padding: 7% 5% 2% 5%;
+    padding: 7% 5% 0 5%;
     font-weight: 600;
+}
+
+#menu {
+    margin: -1rem 20% 2rem 18%;
+    padding-top: 0;
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu li {
+    display: inline;
+    text-align: center;
+    margin: 0 2%;
+}
+
+a:hover {
+    color: #BEB6F2;
 }
 
 #background-img {
@@ -67,7 +90,7 @@ p, li {
     /*border-radius: 0 0 2rem 2rem; */
 }
 
-#tabla {
+#resumen {
     width: 100%;
     text-align: justify;
     border-collapse: collapse;
@@ -79,7 +102,7 @@ table, th, td {
     border: 3px solid #c782cc;
 }
 
-#tabla th {
+#resumen th {
     text-align: center;
 }
 
@@ -91,12 +114,17 @@ table td {
     background-color: #E49A9E;
     margin-top: 0%;
     padding-top: 3%;
-    padding-bottom: 5%;
+    padding-bottom: 7%;
     border-radius: 0 0 2rem 2rem;
     animation-name: galery;
     /*background: linear-gradient(to bottom, #E49A9E, #e6898d); */
     animation-duration: 10s;
     animation-iteration-count: infinite;
+}
+
+#galeria h2 {
+    padding-bottom: 3%;
+    margin-bottom: 0;
 }
 
 .slider {
@@ -118,9 +146,7 @@ table td {
     scroll-snap-align: center;
 }
 
-#galeria h2 {
-    padding-bottom: 3%;
-}
+
 
 @keyframes galery {
     0%   {background-color: #E49A9E;}
