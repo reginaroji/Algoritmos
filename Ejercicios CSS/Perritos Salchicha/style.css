@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Roboto:wght@300&display=swap');
+body {
+    /*background-color: #fcc19f;*/
+    background: linear-gradient(to bottom, #fcc19f, #BEB6F2);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+#contenido {
+    border-radius: 2rem;
+    background-color: #f9eced;
+    /*background: linear-gradient(to bottom, #f9eced, #c59cc8);*/
+    margin: 5% 25%;
+    /*padding-bottom: 3%; */
+}
+
+/*#inicio {
+    margin-bottom: 0;
+    border-radius: 2rem 2rem 0 0;
+} */
+
+/*#divisor1 {
+    background: linear-gradient(to bottom, #f9eced, #c59cc8);
+
+} */
+
+h1 {
+    text-align: center;
+    padding: 7% 5% 2% 5%;
+    font-weight: 600;
+}
+
+#background-img {
+    background-color: #e49a96;
+    padding: 5% 1%;
+    border-radius: 4rem;
+    margin: 0 10%;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    width: 82%;
+    display: block;
+    margin: 3% auto;
+    border-radius: 2rem;
+}
+
+p, li {
+    text-align: justify;
+    font-size: 1rem;
+}
+
+#info {
+    padding: 0 10%;
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+}
+
+#clasificaciones {
+    padding: 3% 10% 5% 10%;
+    background-color: #c59cc8;
+    /*background: linear-gradient(to bottom, #c59cc8, #E49A9E); */
+    margin-bottom: 0%;
+    /*border-radius: 0 0 2rem 2rem; */
+}
+
+#tabla {
+    width: 100%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    font-size: 0.95rem;
+}
+
+table, th, td {
+    border: 3px solid #c782cc;
+}
+
+#tabla th {
+    text-align: center;
+}
+
+table td {
+    padding-left: 0.7rem;
+}
+
+#galeria {
+    background-color: #E49A9E;
+    margin-top: 0%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    border-radius: 0 0 2rem 2rem;
+    animation-name: galery;
+    /*background: linear-gradient(to bottom, #E49A9E, #e6898d); */
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.slider {
+    margin-left: 10%;
+    padding: 0, 10%;
+    align-items: center;
+    display: flex;
+    width: 80%;
+    /*height: 100vh; */
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.slider img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: contain;
+    scroll-snap-align: center;
+}
+
+#galeria h2 {
+    padding-bottom: 3%;
+}
+
+@keyframes galery {
+    0%   {background-color: #E49A9E;}
+    25%  {background-color: #e6898d;}
+    /*50%  {background-color: #be5679;}*/
+    50%  {background-color: #C16583;}
+    100% {background-color: #E49A9E;}
+}
