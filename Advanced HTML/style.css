@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;500;600&display=swap');
+
+body {
+    background: linear-gradient(to bottom right, #d8d1ff, #E8BCDD);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+#content {
+    margin-left: 5%;
+}
+
+.table {
+    border-collapse: separate;
+    width: 60%;
+}
+
+.th-left {
+    border-radius: 15px 0 0 0;
+}
+
+.th-right {
+    border-radius: 0 15px 0 0;
+}
+
+.td-left {
+    border-radius: 0 0 0 15px;
+}
+
+.td-right {
+    border-radius: 0 0 15px 0;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px 25px;
+}
+
+.table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.table tr:nth-child(odd){
+    background-color: white;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+#store-table th {
+    background-color: #BF82B6;
+    border: #BF82B6;
+}
+
+#family-table th {
+    background-color: #C8BEFF;
+    border: #C8BEFF;
+}
+
+.table th {
+    color: black;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.submit {
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px 15px;
+    font-family: 'Lobster', cursive;
+    background-color: #FCBA63;
+}
