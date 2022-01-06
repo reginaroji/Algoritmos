@@ -54,7 +54,7 @@ header, footer {
     transform: translate(-50%, -50%);
     width: 800px;
     height: 450px;
-    border: #000 solid 3px;
+    /* border: #000 solid 3px; */
 }
 
 #container div {
@@ -85,25 +85,25 @@ hr {
 
 
 .cat>#head {
-    background-image: url(/assets/head.png);
+    background-image: url(assets/head.png);
     z-index: 10;
 }
 
 #mouth {
-    border: red solid 3px;
-    background-image: url(/assets/mouth.png);
+    /* border: red solid 3px; */
+    background-image: url(assets/mouth.png);
     /*background-position: 100% 0; */
     /*transform: translateX(-400px); */
     z-index: 20;
 }
 
 #paw-left {
-    background-image: url(/assets/paw-left.png);
+    background-image: url(assets/paw-left.png);
     z-index: 30;
 }
 
 .cat>#paw-right {
-    background-image: url(/assets/paw-right.png);
+    background-image: url(assets/paw-right.png);
     z-index: 30;
 }
 
@@ -112,31 +112,5 @@ hr {
 }
 
 #instrument {
-    background-image: url(/assets/instruments/bongo.png);
+    background-image: url(assets/instruments/bongo.png);
 }
-/*
-.instruments>#keyboard, #layer-keyboard {
-    background-image: url(/assets/instruments/keyboard.png);
-}
-
-.instruments>#cymbal, #layer-cymbal {
-    background-image: url(/assets/instruments/cymbal.png);
-}
-
-.instruments>#marimba, #layer-marimba {
-    background-image: url(/assets/instruments/marimba.png);
-}
-
-.instruments>#tambourine, #layer-tambourine {
-    background-image: url(/assets/instruments/tambourine.png);
-}
-
-.instruments>#cowbell, #layer-cowbell {
-    background-image: url(/assets/instruments/cowbell.png);
-}
-
-.instruments>#keyboard, .instruments>#cymbal, .instruments>#marimba, .instruments>#tambourine, .instruments>#cowbell {
-    visibility: hidden;
-}
-
-*/

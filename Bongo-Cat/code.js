@@ -22,7 +22,7 @@ window.addEventListener("keypress", function (event) {
         //flag = true;
         console.log("tecla espacio");
         this.document.getElementById("mouth").style.backgroundPosition = "100% 0";
-        audio = new Audio('/assets/audio/sounds_meow.mp3');
+        audio = new Audio('assets/audio/sounds_meow.mp3');
         audio.play();
     }
 
@@ -31,9 +31,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "a") {
                 lastKeyPressed = "a";
                 console.log("tecla a");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/bongo.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/bongo.png)";
                 this.document.getElementById("paw-right").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_bongoA.mp3');
+                audio = new Audio('assets/audio/sounds_bongoA.mp3');
                 audio.play();
             }
             break;
@@ -41,9 +41,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "d") {
                 lastKeyPressed = "d";
                 console.log("tecla d");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/bongo.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/bongo.png)";
                 this.document.getElementById("paw-left").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_bongoD.mp3');
+                audio = new Audio('assets/audio/sounds_bongoD.mp3');
                 audio.play();
             }
             break;
@@ -51,9 +51,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "c") {
                 lastKeyPressed = "c";
                 console.log("tecla c");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/cymbal.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/cymbal.png)";
                 this.document.getElementById("paw-left").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_cymbal.mp3');
+                audio = new Audio('assets/audio/sounds_cymbal.mp3');
                 audio.play();
             }
             break;
@@ -61,9 +61,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "f") {
                 lastKeyPressed = "f";
                 console.log("tecla f");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/cowbell.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/cowbell.png)";
                 this.document.getElementById("paw-left").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_cowbell.mp3');
+                audio = new Audio('assets/audio/sounds_cowbell.mp3');
                 audio.play();
             }
             break;
@@ -71,9 +71,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "b") {
                 lastKeyPressed = "b";
                 console.log("tecla b");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/tambourine.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/tambourine.png)";
                 this.document.getElementById("paw-left").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_tambourine.mp3');
+                audio = new Audio('assets/audio/sounds_tambourine.mp3');
                 audio.play();
             }
             break;
@@ -81,9 +81,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "1") {
                 lastKeyPressed = "1";
                 console.log("tecla 1");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/keyboard.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/keyboard.png)";
                 this.document.getElementById("paw-left").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_keyboard1.mp3');
+                audio = new Audio('assets/audio/sounds_keyboard1.mp3');
                 audio.play();
             }
             break;
@@ -91,9 +91,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "2") {
                 lastKeyPressed = "2";
                 console.log("tecla 2");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/keyboard.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/keyboard.png)";
                 this.document.getElementById("paw-left").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_keyboard2.mp3');
+                audio = new Audio('assets/audio/sounds_keyboard2.mp3');
                 audio.play();
             }
             break;
@@ -101,9 +101,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "3") {
                 lastKeyPressed = "3";
                 console.log("tecla 3");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/keyboard.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/keyboard.png)";
                 this.document.getElementById("paw-left").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_keyboard3.mp3');
+                audio = new Audio('assets/audio/sounds_keyboard3.mp3');
                 audio.play();
             }
             break;
@@ -111,9 +111,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "4") {
                 lastKeyPressed = "4";
                 console.log("tecla 4");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/keyboard.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/keyboard.png)";
                 this.document.getElementById("paw-left").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_keyboard4.mp3');
+                audio = new Audio('assets/audio/sounds_keyboard4.mp3');
                 audio.play();
             }
             break;
@@ -121,9 +121,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "5") {
                 lastKeyPressed = "5";
                 console.log("tecla 5");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/keyboard.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/keyboard.png)";
                 this.document.getElementById("paw-left").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_keyboard5.mp3');
+                audio = new Audio('assets/audio/sounds_keyboard5.mp3');
                 audio.play();
             }
             break;
@@ -131,9 +131,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "6") {
                 lastKeyPressed = "6";
                 console.log("tecla 6");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/keyboard.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/keyboard.png)";
                 this.document.getElementById("paw-right").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_keyboard6.mp3');
+                audio = new Audio('assets/audio/sounds_keyboard6.mp3');
                 audio.play();
             }
             break;
@@ -141,9 +141,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "7") {
                 lastKeyPressed = "7";
                 console.log("tecla 7");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/keyboard.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/keyboard.png)";
                 this.document.getElementById("paw-right").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_keyboard7.mp3');
+                audio = new Audio('assets/audio/sounds_keyboard7.mp3');
                 audio.play();
             }
             break;
@@ -151,9 +151,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "b") {
                 lastKeyPressed = "b";
                 console.log("tecla 8");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/keyboard.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/keyboard.png)";
                 this.document.getElementById("paw-right").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_keyboard8.mp3');
+                audio = new Audio('assets/audio/sounds_keyboard8.mp3');
                 audio.play();
             }
             break;
@@ -161,9 +161,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "9") {
                 lastKeyPressed = "9";
                 console.log("tecla 9");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/keyboard.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/keyboard.png)";
                 this.document.getElementById("paw-right").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_keyboard9.mp3');
+                audio = new Audio('assets/audio/sounds_keyboard9.mp3');
                 audio.play();
             }
             break;
@@ -171,9 +171,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "0") {
                 lastKeyPressed = "0";
                 console.log("tecla 0");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/keyboard.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/keyboard.png)";
                 this.document.getElementById("paw-right").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_keyboard0.mp3');
+                audio = new Audio('assets/audio/sounds_keyboard0.mp3');
                 audio.play();
             }
             break;
@@ -181,9 +181,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "q") {
                 lastKeyPressed = "q";
                 console.log("tecla q");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/marimba.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/marimba.png)";
                 this.document.getElementById("paw-left").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_marimbaQ.mp3');
+                audio = new Audio('assets/audio/sounds_marimbaQ.mp3');
                 audio.play();
             }
             break;
@@ -191,9 +191,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "w") {
                 lastKeyPressed = "w";
                 console.log("tecla w");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/marimba.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/marimba.png)";
                 this.document.getElementById("paw-left").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_marimbaW.mp3');
+                audio = new Audio('assets/audio/sounds_marimbaW.mp3');
                 audio.play();
             }
             break;
@@ -201,9 +201,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "e") {
                 lastKeyPressed = "e";
                 console.log("tecla e");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/marimba.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/marimba.png)";
                 this.document.getElementById("paw-left").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_marimbaE.mp3');
+                audio = new Audio('assets/audio/sounds_marimbaE.mp3');
                 audio.play();
             }
             break;
@@ -211,9 +211,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "r") {
                 lastKeyPressed = "r";
                 console.log("tecla r");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/marimba.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/marimba.png)";
                 this.document.getElementById("paw-left").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_marimbaR.mp3');
+                audio = new Audio('assets/audio/sounds_marimbaR.mp3');
                 audio.play();
             }
             break;
@@ -221,9 +221,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "t") {
                 lastKeyPressed = "t";
                 console.log("tecla t");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/marimba.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/marimba.png)";
                 this.document.getElementById("paw-left").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_marimbaT.mp3');
+                audio = new Audio('assets/audio/sounds_marimbaT.mp3');
                 audio.play();
             }
             break;
@@ -231,9 +231,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "y") {
                 lastKeyPressed = "y";
                 console.log("tecla y");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/marimba.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/marimba.png)";
                 this.document.getElementById("paw-right").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_marimbaY.mp3');
+                audio = new Audio('assets/audio/sounds_marimbaY.mp3');
                 audio.play();
             }
             break;
@@ -241,9 +241,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "u") {
                 lastKeyPressed = "u";
                 console.log("tecla u");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/marimba.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/marimba.png)";
                 this.document.getElementById("paw-right").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_marimbaU.mp3');
+                audio = new Audio('assets/audio/sounds_marimbaU.mp3');
                 audio.play();
             }
             break;
@@ -251,9 +251,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "i") {
                 lastKeyPressed = "i";
                 console.log("tecla i");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/marimba.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/marimba.png)";
                 this.document.getElementById("paw-right").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_marimbaI.mp3');
+                audio = new Audio('assets/audio/sounds_marimbaI.mp3');
                 audio.play();
             }
             break;
@@ -261,9 +261,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "o") {
                 lastKeyPressed = "o";
                 console.log("tecla o");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/marimba.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/marimba.png)";
                 this.document.getElementById("paw-right").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_marimbaO.mp3');
+                audio = new Audio('assets/audio/sounds_marimbaO.mp3');
                 audio.play();
             }
             break;
@@ -271,9 +271,9 @@ window.addEventListener("keypress", function (event) {
             if (lastKeyPressed != "p") {
                 lastKeyPressed = "p";
                 console.log("tecla p");
-                this.document.getElementById("instrument").style.backgroundImage = "url(/assets/instruments/marimba.png)";
+                this.document.getElementById("instrument").style.backgroundImage = "url(assets/instruments/marimba.png)";
                 this.document.getElementById("paw-right").style.backgroundPosition = "100% 0";
-                audio = new Audio('/assets/audio/sounds_marimbaP.mp3');
+                audio = new Audio('assets/audio/sounds_marimbaP.mp3');
                 audio.play();
             }
             break;
