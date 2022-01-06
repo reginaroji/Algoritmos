@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;500;600&family=Roboto+Mono:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    --font-headings: 'Roboto Mono', monospace;
+    --font-text: 'Montserrat', sans-serif;
+    /* Color Theme Swatches in Hex */
+    --dark-blue: #004CFE;
+    --fiusha: #E013D6;
+    --aqua: #1AB7F9;
+    --yellow: #FF8E05;
+    --green: #51CC61;
+    --mexican-rose: #E61645;
+    --light-blue: #01E2F8;
+}
+
+body {
+    font-size: 19px;
+    text-align: center;
+    font-family: var(--font-text);
+    /* background-color: #EFE4DE; */
+}
+
+header {
+    margin: 3% 0;
+}
+
+header ul, #soft-skills ul {
+    list-style-type: none;
+}
+
+header li {
+    display: inline;
+    margin: 2%;
+}
+
+header li a {
+    text-decoration: none;
+    color: var(--mexican-rose);
+}
+
+header li a:hover {
+    text-decoration: none;
+    color: var(--yellow);
+}
+
+#info {
+    /* margin: 10% 15%; */
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.side-margins {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.heading {
+    font-family: var(--font-headings);
+}
+
+h1 {
+    font-size: 3.4rem;
+    color: #511839;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+#name {
+    margin: 1.5%;
+    font-size: 1.8rem;
+}
+
+.group-info {
+    margin-top: 15%;
+}
+
+#main {
+    background-color: var(--yellow);
+}
+
+#introduction {
+    padding: 8% 3%;
+}
+
+#greeting {
+    margin: 3%;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#description {
+    font-size: 1.3rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.space-between {
+    margin-top: 10%;
+}
+
+#logos {
+    margin-bottom: 15%;
+}
+
+#soft-skills {
+    background-color: var(--yellow);
+    padding: 8%;
+}
+
+#soft-skills-content {
+    margin: 0 15%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    /* border-style: solid; */
+}
+
+.cards {
+    width: 40%;
+    padding: 7% 0;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    /* color: white; */
+    font-weight: 500;
+}
+
+#card-exp1 {
+    /* background-color: #AEB2BF; */
+    border: var(--mexican-rose) solid 7px;
+}
+
+#card-exp2 {
+    /* background-color: #F2AD94; */
+    border: var(--yellow) solid 7px;
+}
+
+#experience {
+    /* background: linear-gradient(to bottom, #dfb087, #EDB08F); */
+    /* background-color: #dfb087; */
+    /* background: linear-gradient(to bottom, #FBBC78, #FDB764); */
+    /* background: linear-gradient(to bottom, #D9B4D6, #D09ABE); */
+    /* background: linear-gradient(to bottom, #D9B4D6, #9199b3); */
+    margin-top: 8%;
+    /* background-image: url(assets/backgrounds/montañas2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 100%; */
+    padding: 8% 0 0 0;
+}
+
+
+#experience-info {
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+.cards-exp {
+    width: 48% !important;
+    /* background-color: blueviolet; */
+    text-align: left;
+    font-size: 1.3rem;
+    padding: 3%;
+    /* border: #8255A7 solid 4px; */
+    border: #8255A7 solid 1px;
+    border-radius: 2rem;
+    
+}
+
+#card-exp1 {
+    margin-right: 4%;
+}
+
+#card-exp2 {
+    /* border: red solid 2px; */
+    margin-left: 6%;
+}
+
+.side-margins-smaller {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.job-position {
+    display: flex;
+}
+
+.date-position {
+    margin-right: 5%;
+}
+
+.position {
+    margin-top: 0%;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.position-description {
+    margin-top: 4%;
+    font-size: 1.2rem;
+}
+
+.position-description ul {
+    margin: 3% 0 0 7%;
+}
+
+#education {
+    /* border: #BCB35A solid 7px; */
+    /* border: #FAAC63 solid 10px; */
+    border: 10px solid transparent;
+    border-image: linear-gradient(to right, #DD0A31, purple) 1;
+    border-radius: 2rem;
+    padding: 5%;
+}
+
+#education-content {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.education-degree {
+    font-weight: 600;
+}
+
+.icon-style {
+    font-size: 4rem;
+}
+
+#network {
+    margin-top: 0;
+}
+
+#network-icons {
+    justify-content: space-around;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#network-icons i {
+    color: crimson;
+}
+
+form {
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    /* border: salmon solid 2px; */
+}
+
+.form-inputs {
+    justify-content: space-between;
+}
+
+.form-input {
+    width: 45%;
+}
+
+input, textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 0.8rem 0.55rem;
+}
+
+#form-submit-container {
+    text-align: right;
+}
+
+#form-submit {
+    margin-top: 5%;
+    width: 120px;
+    border-radius: 2rem;
+    border-style: solid;
+    background-color: white;
+}
+
