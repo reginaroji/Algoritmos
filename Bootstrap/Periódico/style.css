@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Orelega+One&family=Poppins:wght@300;500;600&family=Roboto+Mono:wght@300;400;500;600&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;;
+}
+
+#navbar-style {
+    margin-right: 1rem;
+    margin-left: 1em;
+}
+
+.navbar-brand {
+    font-family: 'Orelega One', cursive;
+}
+
+.jumbotron h1{
+    font-family: 'Orelega One', cursive;
+    font-size: 5rem;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+#jumbotron-deportes {
+    background-color: rgb(163, 52, 52);
+}
+
+#jumbotron-entretenimiento {
+    background-color: #E5890A;
+}
+
+#jumbotron-internacional {
+    background-color: #5a6e53;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+.contenido-noticia {
+    font-size: 1.1rem;
+}
